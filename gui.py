@@ -1,7 +1,6 @@
 from tkinter import *
+from client_final import *
 
-
-username = 'SID'
 
 root = Tk()
 root.title('Chat-App')
@@ -11,7 +10,7 @@ canvas = Canvas(root, height = 200, width = 200)
 canvas.grid(row=5,column=5)
 
 
-myLabel1 = Label(root, text = (username + '>'))
+myLabel1 = Label(root, text = (my_username + '>'))
 myLabel1.grid(row = 0, column = 0)
 
 e = Entry(root, width = 40)
